@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Monsieur+La+Doulaise&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+   <body>
+    
+    <div id="cart-message" class="cart-message">Item added to cart!</div>
+    
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="None"></a>
+
+        <div>
+            <ul id="navbar">
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <li><a href="index.html"><i class="fa-solid fa-house fa-1x"></i> Home</a></li>
+                <li><a class="active" href="shop.html"><i class="fa-solid fa-store fa-1x"></i> Shop</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-blog"></i> Blog</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-address-card fa-1x"></i> About</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-phone fa-1x"></i> Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-plus fa-1x"></i></i> Cart</a></li>
+                
+            </ul>
+        </div>
+        <div id="mobile">
+          <a href="cart.html"><i class="fa-solid fa-cart-plus fa-2x"></i></a>
+          <i id="bar" class="fas fa-outdent fa-2x"></i>
+        </div>
+
+    </section>
+
+    <section id="pro-det" class="section-p1">
+        <div class="single-pro-img">
+            <img src="img/products/f1.jpg" width="100%" id="main-img">
+            <div class="small-img-grp">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f5.jpg" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-det">
+            <h6>Home/Shirt</h6>
+            <h4>Tropical Pop Short Shirts</h4>
+            <h2 class="cost">$79</h2>
+            <select id="size-select" required> 
+              <option value="">Select Size</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select> <br>
+            <input type="number" value="1">
+            <button class="add-to-cart"
+              data-name="Tropical Pop Short Shirts"
+              data-price="79"
+              data-img="img/products/f1.jpg">
+              Add to cart
+            </button>
+
+            <h4>Product Details</h4>
+            <span>
+                Make a bold statement with the Tropical Pop Short Shirt, your go-to for sunny days and standout style. Featuring a lively blend of mustard yellow, teal, red, and white with abstract tropical floral motifs, this shirt captures the essence of carefree island vibes and artistic flair. The soft, lightweight fabric and relaxed short-sleeve design offer maximum comfort, making it ideal for beach outings, summer parties, or laid-back weekends. The open collar and button-up front add a classic touch to this modern, playful piece.
+            </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>New styles just landed in store</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg">
+          <div class="des">
+            <span>AzureWear</span>
+            <h5>Coastal Breeze Linen Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half"></i> 4.7
+            </div>
+            <h4>$79</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i>
+          <div class="hover-text">Add to cart</div></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n2.jpg">
+          <div class="des">
+            <span>UrbanPatch</span>
+            <h5>Twilight Check Casual Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i> 4.1
+            </div>
+            <h4>$89</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i><div class="hover-text">Add to cart</div></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n3.jpg">
+          <div class="des">
+            <span>Otto</span>
+            <h5>Minimalist Button-Down Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fa-solid fa-star-half"></i> 4.5
+            </div>
+            <h4>$56</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i><div class="hover-text">Add to cart</div></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n4.jpg" class="allen">
+          <div class="des">
+            <span>Allen Solly</span>
+            <h5> Graphic Cotton Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i> 4.9
+            </div>
+            <h4>$99</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus cart"></i><div class="hover-text">Add to cart</div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner4">
+      <div class="texts">
+        <h4>Sign up for Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="email-sign">
+        <input class="email" type="text" placeholder=" Your Email-ID"><button class="sign"> Sign Up </button>
+      </div>
+    </section>
+
+    <footer id="footer" class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png">
+        <h4>Contact</h4>
+        <h6><strong>Address: </strong> 22 Main St, New York, NY 10003, USA</h6>
+        <h6><strong>Phone: </strong>+01 2224 322</h6>
+        <h6><strong>Working Slots: </strong> 10:00 - 18:30, Mon-Sat</h6>
+        <div class="follow">
+          <h6>Follow Us On</h6>
+          <icon>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </icon>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Condition</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Secured Payment Gateways</h4>
+        <img src="img/pay/pay.png">
+      </div>
+      <div class="copyright">
+        <p>© 2025, Tech2 etc-HTML-CSS ShopSphere</p>
+      </div>
+    </footer>
+
+    <script>
+        var mainimg=document.getElementById("main-img");
+        var smallimg=document.getElementsByClassName("small-img");
+        var cost=document.getElementsByClassName("cost")[0];
+        const value=["$79", "$89", "$80", "$79"]
+        for(let i=0;i<4;i++){
+            smallimg[i].onclick=function(){
+                mainimg.src=smallimg[i].src;
+                cost.innerText=value[i];
+            }
+        }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
