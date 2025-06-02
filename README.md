@@ -3,7 +3,7 @@
 **ShopSphere** is a responsive and visually appealing online shopping website built with HTML, CSS, JavaScript and local storage. It features a complete front-end experience with product listings, a blog, a shopping cart system, and detailed product views.
 
 ## 🌐 Live Preview
-[View Website](#)
+[View Website](#https://swaminathan02.github.io/ShopShere--Fashion-and-LifeStyle-Online-Store/)
 
 ## ✨ Features
 - 🏠 **Homepage** – Promotional banners & featured products  
